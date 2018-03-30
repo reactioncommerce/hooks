@@ -1,0 +1,57 @@
+{
+  "name": "@reactioncommerce/reaction-hooks",
+  "version": "0.0.0-development",
+  "description": "Reaction application logging based on Bunyan logger",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "rimraf ./dist && babel src --out-dir ./dist",
+    "lint": "eslint ./src",
+    "lintfix": "eslint ./src --fix",
+    "watch": "watch 'npm run build' src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactioncommerce/reaction-hooks.git"
+  },
+  "author": "Reaction Commerce <hello@reactioncommerce.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reactioncommerce/reaction-hooks/issues"
+  },
+  "homepage": "https://github.com/reactioncommerce/reaction-hooks#readme",
+  "devDependencies": {
+    "@reactioncommerce/eslint-config": "^1.0.1",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jest": "^21.15.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "rimraf": "^2.6.2",
+    "semantic-release": "^15.1.4",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-2"
+    ],
+    "plugins": [
+      "lodash"
+    ],
+    "sourceMaps": true
+  },
+  "eslintConfig": {
+    "extends": "@reactioncommerce"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
