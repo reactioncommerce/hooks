@@ -49,9 +49,8 @@ workflows:
   build_deploy:
     jobs:
       - build:
-          context: reaction
       - deploy:
-          context: reaction
+          context: reaction-publish-semantic-release
           requires:
             - build
           filters:
