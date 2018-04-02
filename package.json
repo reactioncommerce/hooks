@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reactioncommerce/reaction-hooks.git"
+    "url": "git+https://github.com/reactioncommerce/hooks.git"
   },
   "author": "Reaction Commerce <hello@reactioncommerce.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/reactioncommerce/reaction-hooks/issues"
+    "url": "https://github.com/reactioncommerce/hooks/issues"
   },
-  "homepage": "https://github.com/reactioncommerce/reaction-hooks#readme",
+  "homepage": "https://github.com/reactioncommerce/hooks#readme",
   "devDependencies": {
     "@reactioncommerce/eslint-config": "^1.0.1",
     "babel-cli": "^6.26.0",
