@@ -1,7 +1,7 @@
 {
   "name": "@reactioncommerce/reaction-hooks",
   "version": "0.0.0-development",
-  "description": "Reaction application logging based on Bunyan logger",
+  "description": "An hooks API that can be used to run callbacks for any event",
   "main": "./dist/main.js",
   "scripts": {
     "build": "rimraf ./dist && babel src --out-dir ./dist",
