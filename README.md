@@ -1,3 +1,7 @@
+> ## ⚠ **Warning**: This project has been archived and is not maintained.
+
+
+
 # Hooks
 
 Reaction Hooks provides a simple API that allows you to attach arbitrary callbacks to any particular event that you define. You simply
